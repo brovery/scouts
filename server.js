@@ -2,8 +2,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var fs = require("fs");
-var Regex = require("regex");
-var movies = {};
+var adventures, scouts;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -11,123 +10,26 @@ app.use(bodyParser.json());
 app.use('/', express.static(__dirname + '/client'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
-fs.readFile("movies.json", 'utf8', (err, data) => {
+fs.readFile("bear_adventures.json", 'utf8', (err, data) => {
     if (err) throw err;
-    movies = JSON.parse(data);
+    adventures = JSON.parse(data);
+    // console.log(adventures);
 });
 
-// List all movies.
-app.get('/api/movies', function (req, res) {
-    console.log("movies searched.");
+fs.readFile("scouts.json", 'utf8', (err, data) => {
+    if (err) throw err;
+    scouts = JSON.parse(data);
+    // console.log(scouts);
+});
+
+// get scouts and requirements.
+app.get('/api/getData', function (req, res) {
+    console.log("Returned all data.");
     res.send(movies.movies);
     
 });
 
-// Add a movie.
-app.post('/api/addmovie', function(req, res) {
-    var newmovie = {
-        "name": req.body.title,
-        "year": req.body.year,
-        "checkedout": false
-    };
-    movies.movies.push(newmovie);
-    console.log(newmovie);
 
-    fs.writeFile('movies.json', JSON.stringify(movies), (err) => {
-        if (err) res.send("Unable to add movie!");
-        else res.send("Movie added!");
-    });
-});
-
-// Remove a movie.
-app.get('/api/removemovie', function(req, res) {
-    var oldmovie = {
-        "name": req.query.name,
-        "year": req.query.year
-    };
-    var found = false;
-    console.log(oldmovie);
-    
-    for (var i = 0; i < movies.movies.length; i++) {
-        if (movies.movies[i].name == oldmovie.name && movies.movies[i].year == oldmovie.year) {
-            console.log("FOUNDIT!");
-            found = true;
-            movies.movies.splice(i,1);
-            fs.writeFile('movies.json', JSON.stringify(movies), (err) => {
-                if (err) res.send("Unable to remove movie!");
-                else res.send("Movie removed!");
-            });
-        }
-    }
-    if (found === false) {
-        res.send("Movie not found!");
-    }
-});
-
-// Edit a movie
-app.get('/editmovie', function(req, res) {
-    var editmovie = {
-        "name": req.query.name,
-        "year": req.query.year,
-        "newname": req.query.newname,
-        "newyear": req.query.newyear
-    };
-    var found = false;
-    console.log(editmovie);
-
-    for (var i = 0; i < movies.movies.length; i++) {
-        if (movies.movies[i].name == editmovie.name && movies.movies[i].year == editmovie.year) {
-            console.log("FOUNDIT!");
-            found = true;
-            movies.movies[i].name = editmovie.newname;
-            movies.movies[i].year = editmovie.newyear;
-            fs.writeFile('movies.json', JSON.stringify(movies), (err) => {
-                if (err) res.send("Unable to edit movie!");
-                else res.send("Movie edited!");
-            });
-        }
-    }
-    if (found === false) {
-        res.send("Movie not found!");
-    }
-});
-
-// Search and list matches on movie titles.
-app.get('/api/searchmovie', function(req, res) {
-    var returnmovies = [];
-    var patt = new RegExp(req.query.name, 'gi');
-
-    for (var i = 0; i < movies.movies.length; i++) {
-        if (patt.test(movies.movies[i].name)) {
-            console.log("Found One.");
-            returnmovies.push(movies.movies[i]);
-        }
-    }
-    res.send(returnmovies);
-});
-
-// check a movie in/out.
-app.get('/api/checkout', function(req, res) {
-    var moviefound = false;
-    
-    
-    for (var i = 0; i < movies.movies.length; i++) {
-        if (movies.movies[i].name == req.query.name && movies.movies[i].year == req.query.year) {
-            moviefound = true;
-            console.log("checking out");
-            movies.movies[i].checkedout = !movies.movies[i].checkedout;
-
-            fs.writeFile('movies.json', JSON.stringify(movies), (err) => {
-                if (err) res.send("Unable to check out movie!");
-                else res.send("Movie checked out!");
-            });
-        }
-    }
-
-    if (moviefound === false) {
-        res.send("Unable to locate movie.");
-    }
-});
 
 
 var port = 3000;
