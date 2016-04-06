@@ -1,0 +1,251 @@
+[
+  {
+    "required": [
+      {
+        "adventure": "Bear Claws",
+        "instructions": "Complete all three Requirements",
+        "Requirements": [
+          {"requirement": "Learn about three common designs of pocketknives."},
+          {"requirement": "Learn knife safety and earn your Whittling Chip."},
+          {"requirement": "Using a pocketknife, carve two items."}
+        ]
+      },
+      {
+        "adventure": "Bear Necessities",
+        "instructions": "Complete all nine Requirements",
+        "Requirements": [
+          {"requirement": "While working on your Bear badge, camp overnight with your pack. If your chartered organization does not permit Cub Scout camping, you may substitute a family campout or a daylong outdoor activity with your den or pack."},
+          {"requirement": "Attend a campfire show, and participate by performing a song or skit with your den."},
+          {"requirement": "Make a list of items you should take along on your campout."},
+          {"requirement": "Make a list of equipment that the group should bring along in addition to each Scout's personal gear."},
+          {"requirement": "With your den, plan a cooked lunch or dinner that is nutritious and balanced. Make a shopping list, and help shop for the food. On a campout or at another outdoor event, help cook the meal, and help clean up afterward."},
+          {"requirement": "Help your leader or another adult cook a different meal from the one you helped prepare for requirement 5. Cook this meal outdoors."},
+          {"requirement": "Help set up a tent. Pick a good spot for the tent, and explain to your den leader why you picked it."},
+          {"requirement": "Demonstrate how to tie two half hitches and explain what the hitch is used for."},
+          {"requirement": "Learn how to read a thermometer and a barometer. Keep track of the temperature and barometric pressure readings and the actual weather at the same time every day for seven days."}
+        ]
+      },
+      {
+        "adventure": "Fellowship and Duty to God",
+        "instructions": "Do either requirement 1 OR requirement 2.",
+        "Requirements": [
+          {"requirement": "Earn the religious emblem of your faith."},
+          {"requirement": [
+            {"instructions": "Complete 2a and at least two of requirements 2b-2d."},
+            {"req": "Working with a parent or guardian, spiritual advisor, or religious leader, provide service to help a place of worship or spiritual community, school, community organization, or chartered organization that puts into practice your ideals of duty to God and strengthens your fellowship with others."},
+            {"req": "Identify a person whose faith and duty to God you admire, and discuss this person with your family."},
+            {"req": "Make a list of things you can do to practice your duty to God as you are taught in your home or place of worship or spiritual community. Select two of the items, and practice them for two weeks."},
+            {"req": "Attend a religious service, den or pack meeting worship service, or time of family reflection and discussion about your family's beliefs."}
+          ]}
+        ]
+      },
+      {
+        "adventure": "Fur, Feathers, and Ferns",
+        "instructions": "Do the following",
+        "Requirements": [
+          {"Requirement": "While hiking or walking for one mile, identify six signs that any mammals, birds,insects, reptiles, or plants are living nearby the place where you choose to hike."},
+          {"Requirement": "Name one animal that has become extinct in the last 100 years and one animal that is currently endangered. Explain what caused their declines."},
+          {"Requirement": "Visit one of the following: zoo, wildlife refuge, nature center, aviary, game preserve, local conservation area, wildlife rescue group, or fish hatchery. Describe what you learned during your visit."},
+          {"Requirement": "Observe wildlife from a distance. Describe what you saw."},
+          {"Requirement": "Use a magnifying glass to examine plants more closely. Describe what you saw through the magnifying glass that you could not see without it."},
+          {"Requirement": "Learn about composting and how vegetable waste can be turned into fertilizer for plants."},
+          {"Requirement": "Plant a vegetable or herb garden."}
+        ]
+      },
+      {
+        "adventure": "Grin and Bear It",
+        "instructions": "Do the following",
+        "Requirements": [
+          {"Requirement": "Play a challenge game or initiative game with the members of your den. Take part in a reflection after the game."},
+          {"Requirement": "Working with the members of your den, organize a Cub Scout carnival and lead it at a special event."},
+          {"Requirement": "Help younger Cub Scouts take part in one of the events at the Cub Scout carnival."},
+          {"Requirement": "After the Cub Scout carnival, discuss with the members of your den and your den leader what went well, what could be done better, and how everyone worked together to make the event a success."},
+          {"Requirement": "Make and present an award to one of the adults who helped you organize the activities at the Cub Scout carnival."}
+        ]
+      },
+      {
+        "adventure": "Paws for Action",
+        "instructions": "Do the following",
+        "Requirements": [
+          {"Requirement": [
+            {"instructions": "Do each of the following"},
+            {"req": "Find out about two famous Americans. Share what you learned."},
+            {"req": "Find out where places of historical interest are located in or near your community, town, or city. Go and visit one of them with your family or den."},
+            {"req": "Learn about our flag. Display it at home for one month. Say the Pledge of Allegiance and learn its meaning."}
+          ]},
+          {"Requirement": [
+            {"instructions": "Do item a, and then do at least two of b-f."},
+            {"req": "Visit a local sheriff’s office or police station, or talk with a law enforcement officer visiting your den. During the visit, take turns with your den members asking questions that will help you learn how to stay safe."},
+            {"req": "Practice one way police gather evidence by taking fingerprints, taking a shoe print, or taking tire track casts."},
+            {"req": "Make a list of emergency numbers to post in your home, and keep a copy with you in your backpack or wallet."},
+            {"req": "With your family, develop a plan to follow in case of an emergency, and practice the plan at least three times. Your family can determine the emergency, or you can develop several plans."},
+            {"req": "Discuss with your parent or another adult you trust any worries you have about your safety or a friend’s safety."},
+            {"req": "If you have younger brothers and sisters, make sure they know how to call for help in an emergency."}
+          ]},
+          {"Requirement": [
+            {"instructions": "Do the following"},
+            {"req": "Learn about the energy your family uses and how you can help your family decrease its energy use."},
+            {"req": "Do a cleanup project that benefits your community"}
+          ]}
+        ]
+      }
+    ]
+  },
+
+  {
+    "elective": [
+      {
+        "adventure": "Baloo the Builder",
+        "requirements": [
+          {"requirement": "Discover which hand tools are the best ones to have in your toolbox. Learn the rules for using these tools safely. Practice with at least four of these tools before beginning a project."},
+          {"requirement": "Select, plan, and define the materials for the projects you will complete in requirement"},
+          {"requirement": "Assemble your materials, and build one useful project and one fun project using wood."},
+          {"requirement": "Apply a finish to one of your wood projects."}
+      },
+      {
+        "adventure": "A Bear Goes Fishing",
+        "requirements": [
+          {"requirement": "Discover and learn about three types of fishes in your area. Draw a color picture of each fish, record what each one likes to eat, and describe what sort of habitat each likes."},
+          {"requirement": "Learn about your local fishing regulations with your leader or a parent or guardian. List three of the regulations you learn about and one reason each regulation exists."},
+          {"requirement": "Learn about fishing equipment, and make a simple fishing pole. Practice casting at a target."},
+          {"requirement": "Go on a fishing adventure, and spend a minimum of one hour trying to catch a fish. Put into practice the things you have learned about fish and fishing equipment."}
+        ]
+      },
+      {
+        "adventure": "Bear Picnic Basket",
+        "requirements": [
+          {"requirement": [
+            {"instructions": "Do the following:"},
+            {"req": "Create your own Bear cookbook using at least five recipes you can cook or prepare either on your own or with some adult help. Include one page with information about first aid. You should include one recipe for a breakfast item, one for lunch, and one for dinner, and two recipes for nutritious snacks."},
+            {"req": "Prepare for cooking by explaining the importance of planning, tool selection, and cooking safety."},
+            {"req": "Go on a grocery shopping trip with your den or with an adult. Check the price of different brands of one single item, and compare the price of a ready-made item with the price of the same item you would make yourself."}
+          ]},
+          {"requirement": [
+            {"instructions": "Do the following:"},
+            {"req": "With the help of an adult, select one food item, and follow a recipe to prepare it for your family in your kitchen. Clean up after the preparation and cooking."},
+            {"req": "With the help of an adult, select one food item and follow a recipe to prepare it outdoors for your family or den. Clean up after the preparation and cooking."}
+          ]},
+          {"requirement": "Select and prepare two nutritious snacks for yourself, your family, or your den."}
+        ]
+      },
+      {
+        "adventure": "Beat of the Drum",
+        "requirements": [
+          {"requirement": "Learn about the history and culture of American Indians who lived in your area at the time of European colonization."},
+          {"requirement": "Write a legend."},
+          {"requirement": "Make a dream catcher."},
+          {"requirement": "Make a craft similar to one made by American Indians."},
+          {"requirement": "Make a drum. Once your drum is complete, create a ceremonial song."},
+          {"requirement": "Visit an Order of the Arrow dance ceremony or American Indian event within your community."},
+          {"requirement": "Learn and demonstrate ceremonial dance steps."},
+          {"requirement": "Create a dance."}
+        ]
+      },
+      {
+        "adventure": "Critter Care",
+        "requirements": [
+          {"requirement": "Care for a pet for two weeks. Make a list of tasks you did to take care of the pet. If you do not have a pet, research one that you would like to have and write about the care it needs."},
+          {"requirement": "Learn more about your pet or a pet you would like to have. List three interesting facts that you learned about your pet."},
+          {"requirement": "Make a poster about your pet or a pet you would like to own. Share your poster with your den, pack, or family."},
+          {"requirement": "Do your best to train a pet to perform a trick or follow a simple command, and explain how you trained it. (If your pet is a hermit crab, fish, snake, or the like, you may skip this requirement.)"},
+          {"requirement": "Tell three ways that animals can help people."},
+          {"requirement": "Tell what is meant by an animal being “rabid.” Name some animals that could have rabies. Explain what you should do if you are near an animal that might be rabid."},
+          {"requirement": "Visit with a local veterinarian or animal shelter caretaker. Find out what types of animals he or she might see on a regular basis. Ask what type of education is needed to become a veterinarian or shelter caretaker and why he or she chose to pursue this career."}
+        ]
+      },
+      {
+        "adventure": "Forensics",
+        "requirements": [
+          {"requirement": "Talk with your family and den about forensics and how it is used to help solve crimes."},
+          {"requirement": "Analyze your fingerprints."},
+          {"requirement": "Learn about chromatography and how it is used in solving crimes. Do an investigation using different types of black, felt-tip markers. Share your results with your den."},
+          {"requirement": "Do an analysis of four different substances: salt, sugar, baking soda, and cornstarch."},
+          {"requirement": "Make a shoe imprint."},
+          {"requirement": "Visit the sheriff’s office or police station in your town. Find out how officers collect evidence."},
+          {"requirement": "Learn about the different jobs available in forensic science. Choose two, and find out what is required to work those jobs. Share what you learned with your den."},
+          {"requirement": "Learn how animals are used to gather important evidence. Talk about your findings with your den."}
+        ]
+      },
+      {
+        "adventure": "Make It Move",
+        "requirements": [
+          {"requirement": "Create an “exploding” craft stick reaction."},
+          {"requirement": "Make two simple pulleys, and use them to move objects."},
+          {"requirement": "Make a lever by creating a seesaw using a spool and a wooden paint stirrer. Explore the way it balances by placing different objects on each end."},
+          {"requirement": [
+            {"instructions": "Do the following:"},
+            {"req": "Draw a Rube Goldberg–type machine. Include at least six steps to complete your action."},
+            {"req": "Construct a real Rube Goldberg–type machine to complete a task assigned by your den leader. Use at least two simple machines and include at least four steps."}
+          ]}
+        ]
+      },
+      {
+        "adventure": "Marble Madness",
+        "requirements": [
+          {"requirement": "Discuss with your family and den the history of marbles, such as where and when the game began. Talk about the different sizes of marbles and what they are made of and used for."},
+          {"requirement": "Learn about three different marble games, and learn to play the marble game 'ringer.' Learn how to keep score. Learn and follow the rules of the game. Play the game with your family, friends, or your den."},
+          {"requirement": "Learn four or five words that are used when talking about marbles. Tell what each of the words means and how it relates to playing marbles. Share this information with your den."},
+          {"requirement": "With the help of an adult, make a marble bag to hold marbles."},
+          {"requirement": "With your den or family, make a marble obstacle course or marble golf course. Share what you create. Invite everyone to go through your course."},
+          {"requirement": "Create your own game using marbles, and design rules for playing the game. Share the game you created with your den, family, or friends. Explain the rules and how to play the game."},
+          {"requirement": "With your den or family, create a marble race track. Have at least two lanes so you can race your favorite marbles against each other."},
+          {"requirement": "Make a marble maze."}
+        ]
+      },
+      {
+        "adventure": "Roaring Laughter",
+        "requirements": [
+          {"requirement": "Think about what makes you laugh. Write down three things that make you laugh."},
+          {"requirement": "Practice reading tongue twisters."},
+          {"requirement": "Create your own short story. Remove some nouns, verbs, adjectives, and adverbs from the story, leaving blanks. Without telling the story, have a friend insert his or her own nouns, verbs, adjectives, and adverbs in the story you created."},
+          {"requirement": "With a partner, play a game that makes you laugh."},
+          {"requirement": "Share a few jokes with a couple of friends to make them laugh."},
+          {"requirement": "Practice at least two run-ons with your den, and perform them at a pack meeting or campfire program."}
+        ]
+      },
+      {
+        "adventure": "Robotics",
+        "requirements": [
+          {"requirement": "Identify six tasks performed by robots."},
+          {"requirement": "Learn about some instances where a robot could be used in place of a human for work. Research one robot that does this type of work, and present what you learn to your den."},
+          {"requirement": "Build a robot hand. Show how it works like a human hand and how it is different from a human hand."},
+          {"requirement": "Build your own robot."},
+          {"requirement": "Visit a place that uses robots."}
+        ]
+      },
+      {
+        "adventure": "Salmon Run",
+        "requirements": [
+          {"requirement": "Explain the safety rules that you need to follow before participating in boating."},
+          {"requirement": "Identify the equipment needed when going boating."},
+          {"requirement": "Demonstrate correct rowing or paddling form. Explain how rowing and canoeing are good exercise."},
+          {"requirement": "Explain the importance of response personnel or lifeguards in a swimming area."},
+          {"requirement": "Show how to do both a reach rescue and a throw rescue."},
+          {"requirement": "Visit a local pool or swimming area with your den or family, and go swimming."},
+          {"requirement": "Demonstrate the front crawl swim stroke to your den or family."},
+          {"requirement": "Name the three swimming ability groups for the Boy Scouts of America."},
+          {"requirement": "Attempt to earn the BSA beginner swim classification."}
+        ]
+      },
+      {
+        "adventure": "Super Science",
+        "requirements": [
+          {"requirement": "Make static electricity by rubbing a balloon or a plastic or rubber comb on a fleece blanket or wool sweater. Explain what you learned."},
+          {"requirement": "Conduct a balloon or other static electricity investigation that demonstrates properties of static electricity. Explain what you learned."},
+          {"requirement": "Conduct one other static electricity investigation. Explain what you learned."},
+          {"requirement": "Do a sink-or-float investigation. Explain what you learned."},
+          {"requirement": "Do a color-morphing investigation. Explain what you learned."},
+          {"requirement": "Do a color-layering investigation. Explain what you learned."}
+        ]
+      },
+      {
+        "adventure": "A World of Sound",
+        "requirements": [
+          {"requirement": "Make an mbira."},
+          {"requirement": "Make a sistrum."},
+          {"requirement": "Make a rain stick."}
+        ]
+      }
+    ]
+  }
+]
