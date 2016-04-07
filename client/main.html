@@ -9,35 +9,36 @@
 	<div flex layout="row">
 
 		<div flex layout="column">
+			<h3>Scout Requirements</h3>
+			<div flex="none" layout="row" layout-align="start left" layout-margin>
 
-			<div flex="none" layout="row" layout-align="start center" layout-margin>
-				<md-input-container style="margin-bottom: 0; height: 45px;">
-					<label>Search Movie by Title</label>
-					<input type="text" ng-model="$ctrl.searchText" />
-				</md-input-container>
+				<md-list flex>
+					<md-list-item ng-repeat="requirement in $ctrl.requirements[0].required">
+						<h3>{{requirement.adventure}}</h3>
+					</md-list-item>
+				</md-list>
 
-				<md-button class="md-accent md-raised"
-					ng-click="$ctrl.search($ctrl.searchText)">Search</md-button>
+				<!--<md-button class="md-accent md-raised" ng-click="$ctrl.search($ctrl.searchText)">Search</md-button>-->
 
 			</div>
 
 			<md-divider></md-divider>
 
-			<md-list flex>
-				<md-list-item class="md-2-line"
-					ng-repeat="movie in $ctrl.movies"
-					ng-click="$ctrl.checkOut(movie)">
-					<md-checkbox ng-model="movie.checkedout"></md-checkbox>
+			<!--<md-list flex>-->
+				<!--<md-list-item class="md-2-line"-->
+					<!--ng-repeat="movie in $ctrl.movies"-->
+					<!--ng-click="$ctrl.checkOut(movie)">-->
+					<!--<md-checkbox ng-model="movie.checkedout"></md-checkbox>-->
 
-					<div class="md-list-item-text">
-						<h3>{{movie.name}}</h3>
-						<p>{{movie.year}}</p>
-					</div>
+					<!--<div class="md-list-item-text">-->
+						<!--<h3>{{movie.name}}</h3>-->
+						<!--<p>{{movie.year}}</p>-->
+					<!--</div>-->
 
-					<md-button class="md-secondary"
-						ng-click="$ctrl.removeMovie(movie)">Remove</md-button>
-				</md-list-item>
-			</md-list>
+					<!--<md-button class="md-secondary"-->
+						<!--ng-click="$ctrl.removeMovie(movie)">Remove</md-button>-->
+				<!--</md-list-item>-->
+			<!--</md-list>-->
 
 		</div>
 

@@ -22,17 +22,20 @@ fs.readFile("scouts.json", 'utf8', (err, data) => {
     // console.log(scouts);
 });
 
-// get scouts and requirements.
-app.get('/api/getData', function (req, res) {
+// get adventure requirements.
+app.get('/api/getAdventures', function (req, res) {
     console.log("Returned all data.");
-    res.send(movies.movies);
-    
+    res.send(adventures);
+});
+
+// get scout data.
+app.get('/api/getScouts', function (req, res) {
+    console.log("Returned all data.");
+    res.send(scouts);
 });
 
 
-
-
-var port = 3000;
+var port = 3005;
 app.listen(port, function() {
     console.log(`App listening on port ${port}...`);
 });
